@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>boss直聘二级菜单栏</title>
+	<style>
+	*{
+		padding:0px;
+		margin:0px;
+		text-decoration:none;
+		list-style:none;
+	}
+	.wrapper{
+		position:relative;
+		left:100px;
+		top:100px;
+		width:200px;
+		height:50px;
+		background: #FCE4EC;
+		text-align: center;
+		line-height:50px;
+	}
+	.wrapper ul .content1 li a{
+		display:none;
+	}
+	.wrapper ul:hover .content1 li a{
+		display:inline-block;
+	}
+	.content2 li a{
+		display: none;
+	}
+	.wrapper ul .content1 .content2 li a{
+		display: none;
+	}
+	.wrapper ul .content1:hover .content2 li a{
+		display: inline-block;
+	}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<ul class="main">
+			<li>职业类型</li>
+			<ul class="content1">
+				<li><a href="#">不限</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				<li><a href="#">高级管理</a></li>
+				<li><a href="#">技术</a></li>
+				<li><a href="#">产品</a></li>
+				<li><a href="#">设计</a></li>
+			</ul>
+		</ul>
+	</div>
+</body>
+</html>
